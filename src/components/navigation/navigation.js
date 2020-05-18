@@ -28,6 +28,7 @@ const Navigation = () => {
             </div>
           </Col>
         </Row>
+        <Row id="show-timer"></Row>
       </Container>
     </nav>
   );

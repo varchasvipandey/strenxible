@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Button } from "reactstrap";
+import { Col } from "reactstrap";
 
 const Workout = props => {
   let duration = props.duration;
@@ -20,12 +20,13 @@ const Workout = props => {
           {props.desc} Do as many reps as you can in the time specified.
         </p>
       </div>
-      <Button
-        className="video__button"
+      <a
+        href="#show-timer"
+        className="btn video__button"
         onClick={() => props.countdownHandler(duration)}
       >
         Start
-      </Button>
+      </a>
     </Col>
   );
 };
