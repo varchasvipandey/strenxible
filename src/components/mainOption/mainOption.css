@@ -1,0 +1,37 @@
+.option__card {
+  box-shadow: 0 0.5rem 1rem #222222a4;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.option__card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1.5rem #2222228a;
+}
+
+.option__card-image {
+  filter: blur(0.2rem) brightness(50%);
+}
+
+.option__card-heading {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.option__card-desc {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.option__card-duration {
+  padding-top: 3rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 991px) {
+  .main__content-options {
+    margin: 0 auto;
+  }
+}

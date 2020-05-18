@@ -1,0 +1,78 @@
+.section {
+  background: #ccc;
+  padding-bottom: 3rem;
+}
+
+.section__heading {
+  text-align: center;
+  padding: 2rem;
+  text-transform: uppercase;
+}
+
+.heading {
+  font-weight: 800;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.completed {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.completed span {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.exercises {
+  padding-top: 4rem;
+}
+
+.video-container {
+  padding-bottom: 4rem;
+}
+
+.video__frame {
+  border: 0.5rem solid #fea82d;
+}
+
+.video__description-box {
+  background-color: #fea82d;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.video__title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.video__desc {
+  text-align: justify;
+}
+
+.video__button {
+  background-color: #fea82d;
+  border: none;
+  width: 100%;
+  padding: 1.2rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+}
+
+.control-container {
+  text-align: center;
+}
+
+.control__button {
+  width: 60%;
+  height: 5rem;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}

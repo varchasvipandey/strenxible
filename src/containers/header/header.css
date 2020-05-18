@@ -1,0 +1,20 @@
+.header {
+  position: relative;
+  background-color: #ccc;
+  height: 40vh;
+}
+
+.header__content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header__app-logo {
+  height: 18rem;
+  transition: all 0.2s;
+}
+.header__app-logo:hover {
+  transform: scale(1.05);
+}

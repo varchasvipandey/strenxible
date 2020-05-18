@@ -1,0 +1,17 @@
+.main {
+  background-color: #fea82d;
+  padding: 2rem 0;
+}
+
+.main__content--center {
+  text-align: center;
+}
+
+.main__heading {
+  color: #fff;
+  text-shadow: 0 0.3rem 0.4rem #222222;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 3rem 0 2rem 0;
+}
