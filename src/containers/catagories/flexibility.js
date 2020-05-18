@@ -146,28 +146,28 @@ class Flexibility extends React.Component {
                 title="Cow pose"
                 desc="Sit in a position shown in the video and then move your body back and forth. This motion will cause stretch in your hip muscles."
                 exercise={cowpose}
-                duration="5"
+                duration="60"
                 countdownHandler={this.countdownHandler}
               />
               <WorkoutPlayer
                 title="Cat Cow Pose"
                 desc="Extend previous stretch by changing the motion. This stretch works on your spine flexibility. Create some tension in the spine, but not too much."
                 exercise={catcowpose}
-                duration="90"
+                duration="60"
                 countdownHandler={this.countdownHandler}
               />
               <WorkoutPlayer
                 title="Abs Stretch"
                 desc="Put your one left on top of other as shown in the video and perform a single crunch. Switch the legs and perform another crunch."
                 exercise={absstretch}
-                duration="90"
+                duration="60"
                 countdownHandler={this.countdownHandler}
               />
               <WorkoutPlayer
                 title="Flutter kicks"
                 desc="Alternatively perform a to and fro lifting motion with your legs. Don't let the leg other than the lifted leg touch the ground."
                 exercise={flutterkicks}
-                duration="60"
+                duration="30"
                 countdownHandler={this.countdownHandler}
               />
               <WorkoutPlayer

@@ -146,7 +146,7 @@ class Strength extends React.Component {
                 title="Push ups"
                 desc="Start by keeping your hands parallel to your shoulder. Then go down while inhaling and then push yourself up while exhaling."
                 exercise={pushup}
-                duration="5"
+                duration="60"
                 countdownHandler={this.countdownHandler}
               />
               <WorkoutPlayer
